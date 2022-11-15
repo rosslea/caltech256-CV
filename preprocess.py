@@ -40,8 +40,9 @@ def move_files(files, old_dir, new_dir):
         old_file_path.replace(new_file_path)
 
 def main():
-    split_files('101_ObjectCategories', './', classes=None)
+    split_files('256_ObjectCategories', './', classes=None)
     print('Split done')
 
 if __name__ == '__main__':
+    print('Start spliting')
     main()
